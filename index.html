@@ -2,21 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>musicClock</title>
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			width: 100%;
+		}
+
+		#canvas{
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
 </head>
 <body>
 	<canvas id="canvas" width="1024" height="768"></canvas>
-	<embed src="audio/yousuosi.mp3" autostart="true" loop="true" hidden="true"></embed>
-	<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
-            src="audio/yousuosi.mp3">
-      你的浏览器不支持audio标签
+	<audio autoplay loop preload="auto" src="audio/yousuosi.mp3">你的浏览器不支持audio标签
 	</audio>
-
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/digit.js"></script>
+	
+	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/dots.js"></script>
 	<script type="text/javascript" src="js/count.js"></script>
 </body>
 </html>

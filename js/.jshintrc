@@ -1,0 +1,53 @@
+{
+    // Settings
+    "lastsemic"     : false,
+    "passfail"      : false,  // Stop on first error.
+    "maxerr"        : 100,    // Maximum errors before stopping.
+
+
+    // Predefined globals whom JSHint will ignore.
+    "browser"       : false,   // Standard browser globals e.g. `window`, `document`.
+
+    "node"          : true,
+    "rhino"         : false,
+    "couch"         : false,
+    "wsh"           : false,   // Windows Scripting Host.
+
+    "jquery"        : false,
+    "prototypejs"   : false,
+    "mootools"      : false,
+    "dojo"          : false,
+
+
+    "predef"     : [
+      "describe", "it", "before", "after"
+    ],
+
+    // Development.
+    "debug"         : true,   // Allow debugger statements e.g. browser breakpoints.
+    "devel"         : true,   // Allow development statements e.g. `console.log();`.
+
+
+    // EcmaScript 5.
+    "es5"           : true,   // Allow EcmaScript 5 syntax.
+    "strict"        : false,  // Require `use strict` pragma in every file.
+    "globalstrict"  : true,   // Allow global "use strict" (also enables 'strict').
+
+
+    // The Good Parts.
+    "undef"         : false,   // Require all non-global variables be declared before they are used.
+    "strict": true,
+
+
+
+    // Persone styling prefrences.
+    "newcap"        : true,   // Require capitalization of all constructor functions e.g. `new F()`.
+    "noempty"       : true,   // Prohibit use of empty blocks.
+    "nonew"         : true,   // Prohibit use of constructors for side-effects.
+    "nomen"         : false,  // Prohibit use of initial or trailing underbars in names.
+    "onevar"        : false,  // Allow only one `var` statement per function.
+    "plusplus"      : false,  // Prohibit use of `++` & `--`.
+    "sub"           : false,   // Tolerate all forms of subscript notation besides dot notation e.g. `dict['key']` instead of `dict.key`.
+    "trailing"      : true,   // Prohibit trailing whitespaces.
+    "white"         : false   // Check against strict whitespace and indentation rules.
+}
